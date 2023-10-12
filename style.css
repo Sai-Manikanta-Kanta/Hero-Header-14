@@ -1,0 +1,188 @@
+/* Page-Styles*/
+.main-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2f1893;
+}
+
+/* Header-Menu-Styles*/
+.header-menu {
+  width: 60vw;
+  height: 40px;
+  position: relative;
+  top: 65px;
+  left: 17%;
+  display: flex;
+}
+.left-part {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.right-part {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+.startup-3 {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.nav-font {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+#purchase-item {
+  background-color: #e93a7d;
+  height: 80%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+/* Text-Wrapper-Styles*/
+.text-wrapper {
+  width: 20vw;
+  height: 50vh;
+  position: relative;
+  top: 25%;
+  left: 17%;
+}
+#text-heading {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+#text-text {
+  color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+ font-weight: 500;
+}
+#text-btn {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  background-color: #e93a7d;
+  height: 10%;
+  width: 40%;
+  border-radius: 100px;
+}
+/* Form-Wrapper-Styles*/
+.form-wrapper {
+  width: 25vw;
+  height: 60vh;
+  background-color: #ebeaed;
+  position: relative;
+  left: 50%;
+  bottom: 35%;
+  border-radius: 10px;
+}
+form {
+  position: relative;
+  top: 10%;
+}
+#signup-text-wrapper {
+  text-align: center;
+}
+
+#singup-text {
+  color: #1e0e62;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+#email-wrapper {
+  text-align: center;
+}
+#email-input {
+  width: 60%;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding-left: 10%;
+}
+#password-wrapper {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+#password-input {
+  width: 60%;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding-left: 10%;
+}
+#checkbox-wrapper {
+  position: relative;
+  top: 40px;
+  left: 15%;
+}
+#signin-wrapper {
+  position: relative;
+  top: 60px;
+  text-align: center;
+}
+#signin-btn {
+  width: 60%;
+  height: 35px;
+  border-radius: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  background: #482be7;
+  color: white;
+}
+#twitter-wrapper {
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+#twitter-btn {
+  width: 60%;
+  height: 35px;
+  border-radius: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  background: #1da1f2;
+  color: white;
+}
+#account-wrapper {
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+span {
+  color: #25dac5;
+  font-weight: bold;
+}
+#hr-left {
+  position: relative;
+  top: 50px;
+  width: 46%;
+  margin-left: 0;
+}
+#hr-right {
+  position: relative;
+  top: 40.5px;
+  width: 46%;
+  margin-right: 0;
+}
+#or-text {
+  position: relative;
+  text-align: center;
+  top: 12px;
+  font-family: "DM Sans", sans-serif;
+}
+a{
+  text-decoration: none;
+}
